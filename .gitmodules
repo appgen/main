@@ -1,0 +1,13 @@
+[submodule "storeroom"]
+	path = storeroom
+	url = git@github.com:appgen/storeroom.git
+[submodule "kitchen"]
+	path = kitchen
+	url = git@github.com:appgen/kitchen.git
+[submodule "menu"]
+	path = menu
+	url = git@github.com:appgen/menu.git
+[submodule "storeroom"]
+	path = storeroom
+	url = git@github.com:appgen/storeroom.git
+
