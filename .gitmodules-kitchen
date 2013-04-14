@@ -1,6 +1,0 @@
-[submodule "pantry"]
-	path = pantry
-	url = git://github.com/appgen/pantry.git
-[submodule "comestibles"]
-	path = comestibles
-	url = git@github.com:appgen/comestibles.git

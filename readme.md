@@ -26,9 +26,6 @@ submodule as an input submodule. Each major part can be checked out
 independently of the present repository. The structure of the submodules
 enforces the immutability of data.
 
-`.gitmodules` files for the respective components are included in the present
-directory.
-
 ### Components
 
 #### Pantry
