@@ -45,15 +45,15 @@ The kitchen takes the pantry (with its various data submodules) as input and
 converts them into a form that the generated web applications can use. This
 involves randomization. For example, geoJSON files and app names are produced
 in the kitchen. These data are all stored in one output submodule, called
-"comstables", in one JSON file per random seed.
+"comestibles", in one JSON file per random seed.
 
 #### Menu
-The menu takes the comstables as input and displays a webpage wherein people
+The menu takes the comestibles as input and displays a webpage wherein people
 can browse apps, claim an app, deploy the app to Heroku and submit the app to
 CollabFinder. It saves the information that people enter (their names and the
 apps that they claimed) in a database of sorts.
 
-It also serves the various specified apps based on the comstables and the
+It also serves the various specified apps based on the comestibles and the
 claims. (It uses placeholder for apps that have not yet been claimed.)
 
 It randomizes things that don't depend on the data, such as the map's tile
