@@ -16,5 +16,9 @@ list_paths() {
 }
 
 for dir in $(list_paths .) .; do
-    echo $dir
+  (
+    cd "$dir"
+    pwd
+    git commit . || exit 0
+  )
 done
