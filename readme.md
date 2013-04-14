@@ -8,7 +8,14 @@ project.
 
 ## How to
 
+Clone like so.
+
     git clone --recursive git@github.com:appgen/main.git appgen
+
+With nested submodules, you'll probably want to commit a few submodules after
+you've made a bunch of changes.
+
+    ./commit
 
 ## Architecture
 AppGen is divided into three major parts, each of which is a submodule

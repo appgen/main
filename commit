@@ -20,5 +20,6 @@ for dir in $(list_paths .) .; do
     cd "$dir"
     pwd
     git commit . || exit 0
+    git branch | grep master > /dev/null && git push origin master
   )
 done
