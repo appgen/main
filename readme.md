@@ -77,17 +77,6 @@ All git repositories are stored on github under the appgen organization.
 Output submodules are specified (in `.gitmodules`) with the standard SSH
 protocal. Input submodules are specified with git-ssh (`git://`).
 
-Repositories on GitHub are named based on the path within the present
-repository, replacing slashes with hyphens.  For example, a `socrata` submodule
-inside of the `pantry` has the path "`pantry/socrata`" and is
-thus named [pantry-socrata](https://github.com:appgen/pantry-socrata).
-
-The present repository is named [main](https://github.com:appgen/main).
-Other repositories belonging to the appgen organization but not inside of the
-present super-repository should use names that begin with a period (`.`).
-For example, if we conduct an analysis of our server logs, we might name it
-"`.server-log-analysis`".
-
 ### Software that each component uses
 The pantry contains many tiny programs for downloading data. They are quite
 independent, and each can be written in a different language.
