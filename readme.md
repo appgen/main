@@ -1,7 +1,8 @@
 AppGen
 ==========
 **AppGen** generates and serves big apps for New York City's Big Apps
-competition.
+competition. This repository is the main repository for all of AppGen's
+sub-repositories. 
 
 ## How to
 
@@ -12,9 +13,9 @@ AppGen is divided into three major parts, each of which is a submodule
 of the present repository. They are listed below in the order by which
 data pass through them.
 
-    1. Pantry
-    2. Kitchen
-    3. Menu
+1. Pantry
+2. Kitchen
+3. Menu
 
 Each major part contains more git submodules. We divide these submodules
 into *input* and *output* submodules. A major part edits the contents of
@@ -64,6 +65,10 @@ It queries some external services. These include
 
 It also contains a mechanism for rendering the various apps as static files.
 These static files are saved in `deliveries`.
+
+I (Tom) had considered separating the menu into separate apps for the generated
+apps and the apps browser, but there seemed to be enough two-way communication
+between these two components that they should be seen as one.
 
 ### Submodule conventions
 All git repositories are stored on github under the appgen organization.
