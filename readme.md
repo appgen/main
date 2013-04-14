@@ -25,3 +25,17 @@ Downloader scripts are stored in the storeroom repository, and the actual
 downloads are stored in subdirectories. Almost **all** external data should be
 downloaded in the storeroom. The one exception is interactive data requests
 inside of the delivery (web application), like calling the Facebook API.
+
+The kitchen takes the storeroom (with its various data submodules) as input and
+converts them into a form that the generated web applications can use. This
+involves randomization. For example, geoJSON files and app names are produced
+in the kitchen. These data are all stored in one output submodule, called
+"comstables", in one geojson file per random seed.
+
+The menu takes the comstables as input and displays a webpage wherein people
+can browse apps, claim an app and submit an app to CollabFinder. It saves the
+information that people enter (their names and the apps that they claimed) in
+either a submodule or a database that the delivery can access. Either way, we
+call this output bucket the "assignments".
+
+The delivery 
