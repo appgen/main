@@ -20,4 +20,8 @@ submodule as an input submodule. Each major part can be checked out
 independently of the present repository. The structure of the submodules
 enforces the immutability of data.
 
-
+The storeroom downloads data and saves it in the most raw possible form.
+Downloader scripts are stored in the storeroom repository, and the actual
+downloads are stored in subdirectories. Almost **all** external data should be
+downloaded in the storeroom. The one exception is interactive data requests
+inside of the delivery (web application), like calling the Facebook API.
