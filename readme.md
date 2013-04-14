@@ -25,7 +25,9 @@ The storeroom downloads data and saves it in the most raw possible form.
 Downloader scripts are stored in the storeroom repository, and the actual
 downloads are stored in subdirectories. Almost **all** external data should be
 downloaded in the storeroom. The one exception is interactive data requests
-inside of the delivery (web application), like calling the Facebook API.
+inside of the delivery (web application), like calling the Facebook API. The
+storeroom reads some of the data it downloads, but only enough to download more
+data.
 
 The kitchen takes the storeroom (with its various data submodules) as input and
 converts them into a form that the generated web applications can use. This

@@ -7,7 +7,7 @@
 [submodule "menu"]
 	path = menu
 	url = git@github.com:appgen/menu.git
-[submodule "storeroom"]
-	path = storeroom
-	url = git@github.com:appgen/storeroom.git
+[submodule "delivery"]
+	path = delivery
+	url = git@github.com:appgen/delivery.git
 
