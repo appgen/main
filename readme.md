@@ -82,3 +82,17 @@ are stored as one directory per seed.
 Each component should contain an executable file called `run` in its root
 directory that will run everything in the directory, resuming from wherever it
 left off.
+
+### Software that each component uses
+The storeroom contains many tiny programs for downloading data. They are quite
+independent, and each can be written in a different language.
+
+The various datasets are connected in the kitchen, so it is more important that
+they be able to interface nicely and that software be written in a way that
+makes debugging easy. Also, much computation occurs in the kitchen, so the
+language must be reasonably fast. Finally, some natural language processing is
+going to happen. Considering all of these things, the storeroom will probably
+be written in Python, with NLTK, pandas, numpy, scikit-learn, &c. That said,
+it wouldn't be hard to write some of this in other languages.
+
+The menu and delivery will probably both be written in Sinatra.
