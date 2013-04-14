@@ -2,7 +2,9 @@ AppGen
 ==========
 **AppGen** generates and serves big apps for New York City's Big Apps
 competition. This repository is the main repository for all of AppGen's
-sub-repositories. 
+sub-repositories. Once we get tired of using Facebook for project management,
+we might decide to use the present repository's issue tracker for the overall
+project.
 
 ## How to
 
