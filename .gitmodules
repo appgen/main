@@ -1,6 +1,6 @@
-[submodule "storeroom"]
-	path = storeroom
-	url = git@github.com:appgen/storeroom.git
+[submodule "pantry"]
+	path = pantry
+	url = git@github.com:appgen/pantry.git
 [submodule "kitchen"]
 	path = kitchen
 	url = git@github.com:appgen/kitchen.git

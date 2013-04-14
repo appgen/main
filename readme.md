@@ -12,7 +12,7 @@ AppGen is divided into three major parts, each of which is a submodule
 of the present repository. They are listed below in the order by which
 data pass through them.
 
-    1. Storeroom
+    1. Pantry
     2. Kitchen
     3. Menu
 
@@ -28,17 +28,17 @@ directory.
 
 ### Components
 
-#### Storeroom
-The storeroom downloads data and saves it in the most raw possible form.
-Downloader scripts are stored in the storeroom repository, and the actual
+#### Pantry
+The pantry downloads data and saves it in the most raw possible form.
+Downloader scripts are stored in the pantry repository, and the actual
 downloads are stored in subdirectories. Almost **all** external data should be
-downloaded in the storeroom. One exception is interactive data requests
+downloaded in the pantry. One exception is interactive data requests
 inside of the menu (web application), like calling the Facebook API. The
-storeroom reads some of the data it downloads, but only enough to download more
+pantry reads some of the data it downloads, but only enough to download more
 data.
 
 #### Kitchen
-The kitchen takes the storeroom (with its various data submodules) as input and
+The kitchen takes the pantry (with its various data submodules) as input and
 converts them into a form that the generated web applications can use. This
 involves randomization. For example, geoJSON files and app names are produced
 in the kitchen. These data are all stored in one output submodule, called
@@ -63,6 +63,7 @@ It queries some external services. These include
 * Url2PNG (for taking screenshots of generated apps)
 
 It also contains a mechanism for rendering the various apps as static files.
+These static files are saved in `deliveries`.
 
 ### Submodule conventions
 All git repositories are stored on github under the appgen organization.
@@ -71,8 +72,8 @@ protocal. Input submodules are specified with git-ssh (`git://`).
 
 Repositories on GitHub are named based on the path within the present
 repository, replacing slashes with hyphens.  For example, a `socrata` submodule
-inside of the `storeroom` has the path "`storeroom/socrata`" and is
-thus named [storeroom-socrata](https://github.com:appgen/storeroom-socrata).
+inside of the `pantry` has the path "`pantry/socrata`" and is
+thus named [pantry-socrata](https://github.com:appgen/pantry-socrata).
 
 The present repository is named [main](https://github.com:appgen/main).
 Other repositories belonging to the appgen organization but not inside of the
@@ -81,14 +82,14 @@ For example, if we conduct an analysis of our server logs, we might name it
 "`.server-log-analysis`".
 
 ### Software that each component uses
-The storeroom contains many tiny programs for downloading data. They are quite
+The pantry contains many tiny programs for downloading data. They are quite
 independent, and each can be written in a different language.
 
 The various datasets are connected in the kitchen, so it is more important that
 they be able to interface nicely and that software be written in a way that
 makes debugging easy. Also, much computation occurs in the kitchen, so the
 language must be reasonably fast. Finally, some natural language processing is
-going to happen. Considering all of these things, the storeroom will probably
+going to happen. Considering all of these things, the pantry will probably
 be written in Python, with NLTK, pandas, numpy, scikit-learn, &c. That said,
 it wouldn't be hard to write some of this in other languages.
 
