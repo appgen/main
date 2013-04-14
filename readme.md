@@ -8,7 +8,7 @@ competition.
     git clone --recursive git@github.com:appgen/main.git appgen
 
 ## Architecture
-AppGen is divided into four major parts, each of which is a submodule
+AppGen is divided into three major parts, each of which is a submodule
 of the present repository. They are listed below in the order by which
 data pass through them.
 
