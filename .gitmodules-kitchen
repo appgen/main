@@ -1,0 +1,6 @@
+[submodule "storeroom"]
+	path = storeroom
+	url = git://github.com/appgen/storeroom.git
+[submodule "comstables"]
+	path = comstables
+	url = git@github.com:appgen/comstables.git
