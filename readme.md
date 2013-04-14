@@ -78,3 +78,7 @@ The kitchen's output submodule, comstables, saves data as one JSON file
 per seed, named `$seed` (no "`.json`"). This is also how the menu's output data
 (`assignments`) are structured. The static websites geneerated by the delivery
 are stored as one directory per seed.
+
+Each component should contain an executable file called `run` in its root
+directory that will run everything in the directory, resuming from wherever it
+left off.
