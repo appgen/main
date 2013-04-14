@@ -63,3 +63,13 @@ Other repositories belonging to the appgen organization but not inside of the
 present super-repository should use names that begin with a period (`.`).
 For example, if we conduct an analysis of our server logs, we might name it
 "`.server-log-analysis`".
+
+### Inter-component APIs
+Because we are passing around data as git submodules, we can define
+inter-component APIs by prescribing filesystem structures.
+
+The storeroom's submodules save data in whatever form is conventient.
+The kitchen's output submodule, comstables, saves data as one JSON file
+per seed, named `$seed` (no "`.json`"). This is also how the menu's output data
+(`assignments`) are structured. The static websites geneerated by the delivery
+are stored as one directory per seed.
