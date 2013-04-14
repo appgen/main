@@ -15,5 +15,6 @@ list_paths() {
   done
 }
 
-list_paths .
-echo .
+for dir in $(list_paths .) .; do
+    echo $dir
+done
