@@ -73,9 +73,20 @@ apps and the apps browser, but there seemed to be enough two-way communication
 between these two components that they should be seen as one.
 
 ### Submodule conventions
-All git repositories are stored on github under the appgen organization.
+All git repositories are stored on GitHub under the appgen organization.
 Output submodules are specified (in `.gitmodules`) with the standard SSH
 protocal. Input submodules are specified with git-ssh (`git://`).
+
+When pushed to GitHub, repositories used for passing data between components 
+should be prefixed with the string `cache-`. For example, a `socrata` submodule
+inside of the `pantry`, with the path "`pantry/socrata`" in the present
+repository, is named [pantry-socrata](https://github.com:appgen/cache-socrata).
+
+The present repository is named [main](https://github.com:appgen/main).
+Other repositories belonging to the appgen organization but not inside of the
+present super-repository should use names that begin with a period (`.`).
+For example, if we conduct an analysis of our server logs, we might name it
+"`.server-log-analysis`".
 
 ### Software that each component uses
 The pantry contains many tiny programs for downloading data. They are quite
