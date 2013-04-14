@@ -20,6 +20,7 @@ submodule as an input submodule. Each major part can be checked out
 independently of the present repository. The structure of the submodules
 enforces the immutability of data.
 
+### Components
 The storeroom downloads data and saves it in the most raw possible form.
 Downloader scripts are stored in the storeroom repository, and the actual
 downloads are stored in subdirectories. Almost **all** external data should be
@@ -46,3 +47,19 @@ randomizes things that don't depend on the data, such as the map's tile server
 and the overall app's theme; these things depend only on the random seed, so
 they don't need to look at the earlier data. It also contains a mechanism for
 rendering the various apps as static files.
+
+### Submodule conventions
+All git repositories are stored on github under the appgen organization.
+Output submodules are specified (in `.gitmodules`) with the standard SSH
+protocal. Input submodules are specified with git-ssh (`git://`).
+
+Repositories on GitHub are named based on the path within the present
+repository, replacing slashes with hyphens.  For example, a `socrata` submodule
+inside of the `storeroom` has the path "`storeroom/socrata`" and is
+thus named [storeroom-socrata](https://github.com:appgen/storeroom-socrata).
+
+The present repository is named [mainline](https://github.com:appgen/mainline).
+Other repositories belonging to the appgen organization but not inside of the
+present super-repository should use names that begin with a period (`.`).
+For example, if we conduct an analysis of our server logs, we might name it
+"`.server-log-analysis`".
