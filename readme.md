@@ -105,3 +105,14 @@ be written in Python, with NLTK, pandas, numpy, scikit-learn, &c. That said,
 it wouldn't be hard to write some of this in other languages.
 
 The menu is one Sinatra application. Let's keep all of this in Ruby.
+
+## Other resources
+Big Apps information
+
+* http://www.nycedc.com/services/nyc-bigapps/past-competitions
+* http://nycbigapps.com/prizes
+* http://nycbigapps.com/rules
+
+Federal data is now allowed. It's also Socrata.
+
+https://explore.data.gov/catalog/raw
