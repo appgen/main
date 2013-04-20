@@ -112,7 +112,9 @@ Big Apps information
 * http://www.nycedc.com/services/nyc-bigapps/past-competitions
 * http://nycbigapps.com/prizes
 * http://nycbigapps.com/rules
+* http://2010.nycbigapps.com
 
 Federal data is now allowed. It's also Socrata.
 
 https://explore.data.gov/catalog/raw
+
