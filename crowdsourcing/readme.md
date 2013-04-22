@@ -5,3 +5,11 @@ We'll crowdsource copy from entrepreneurs and recruiters.
 * http://cofounderslab.com
 * http://founderdating.com
 * http://linkedin.com
+
+Recruiters get this link:
+
+    http://bit.ly/ZfXKFH
+
+Job postings get this link:
+
+    http://bit.ly/12BmKYH 
