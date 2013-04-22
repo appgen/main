@@ -20,6 +20,7 @@ for dir in $(list_paths .) .; do
     cd "$dir"
     pwd
     git checkout master
+    git pull
   )
 done
 
