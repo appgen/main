@@ -106,6 +106,15 @@ it wouldn't be hard to write some of this in other languages.
 
 The menu is one Sinatra application. Let's keep all of this in Ruby.
 
+## Further explanation of business logic
+
+### Copywriting
+We download appidy app pitches and the like, then we parse them to produce a
+grammar. Separately, we download Wikipedia articles and the like about the
+various dataset and competition topics; we use these word frequencies as the
+dictionary. We fill in this grammar with this dictionary, throwing in the app
+name where we can.
+
 ## Other resources
 Big Apps information
 
