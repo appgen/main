@@ -26,3 +26,7 @@ Aggregate columns produce arbitrary primary key experimental unit
 join related datasets stochastic app to explore rapidly prototype
 
 gauge interest
+
+Nobody can deny the success of NYC's open data portal. It has become an essential public resource, driving the development of {xyz}. And yet, these datasets are often manifested in a rather analysis-free way: take whatever the fields are and throw them on a map. In essence, they forget the principle that data science should {}.
+
+AppGen takes a novel approach to raise the discourse: by automating all possible data mashups from the NYC open data portal. Then submitting them as standalone apps to civic app challenges. Automatically. AppGen takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linakges, then visualizes them in the form of standalone apps. It's at once the most efficient way to rapidly prototype spatial understanding of NYC Open Data and a terribly inefficient way of exploring datasets.
