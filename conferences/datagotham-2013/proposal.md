@@ -31,6 +31,6 @@ Nobody can deny the success of NYC's open data portal. It has become an essentia
 
 AppGen takes a novel approach to raise the level of discourse: automating the creation of all possible data mashups from the NYC open data portal, then submitting them as standalone apps to civic app challenges. Automatically.
 
-AppGen takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, then visualizes them in the form of standalone apps. It's at once the most efficient way to rapidly prototype spatial understanding of NYC Open Data to identify reasonable linkages and a remarkably comical and useful way of exploring the datasets. 
+AppGen takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, then visualizes them in the form of standalone apps. It is the most efficient way to rapidly prototype and spatially understand NYC Open Data to identify reasonable linkages. 
 
-This talk will discuss the factors that went into building the AppGen data exploration system, the challenges of automatically generating an app (including how to algorithmically writing product copy and contest submissions), and how to use AppGen to explore any class of civic dataset.
+This talk will discuss the factors that went into building the AppGen data exploration system, the challenges of algorithmically generating an app (This includes merging disparate datasets, writing product copy and composing visual brands), and how to use AppGen to explore any class of civic dataset.
