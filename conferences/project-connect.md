@@ -1,6 +1,16 @@
 Sexy name
 ====
 
+1. Tom introduces NYC open data, the importance of understanding the city, learning to use open data, finding links between data. We were working on AppGen, and we noticed some data quality issues. Standardizing and cleaning data is most of the work for any data analysis, so we thought it was particularly important that people understand how this process works.
+2. Ashley talks about best practices.
+3. Tom: We've resolved most of these issues in AppGen. For example, this bit of code does this, that bit of code does that. We extended some of the dataset-matching code today for our project.
+4. Ashley: This is what we built.
+5. Tom: Tool for exploring connections between datasets, identifying datasets that could be cleaned up and made more usuable, and generally helping understand the landscape of open civic data
+
+
+
+
+
 NYC has made major strides in government transparency by providing a substantial number of public datasets in a machine readable format through the NYC open data portal. This initiative has improved the accessibility and accountability of City government. We think we can make it even better.
 
 The NYC open data portal is a great start at opening public data, but it is hard to explore the connections among datasets. We wanted to make a tool to help explore these connections. In our work on a separate project, [AppGen](http://appgen.me), we uncovered some data quality issues,
