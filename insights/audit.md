@@ -21,3 +21,4 @@ General questions
 * Which DOIT employees and data sources are best/worst?
 * How joinable are datasets?
 * How unionable are datasets?
+* What explains variation in dataset quality?
