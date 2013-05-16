@@ -7,7 +7,7 @@ Submitting a proposal is a two stage process. First, enter the proposal details 
 AppGen: Raising the Discourse about Big Data via Automated Random Prototyping
 
 ## Description * (brief overview for marketing purposes, max. length 400 characters—about 65 words)
-AppGen takes all the datasets from the Socrata data portal, analyzes them to find stochastic linkages, merges disparate datasets, and visualizes them in the form of standalone mobile apps. This novel approach to rapidly prototyping helps us understand diverse datasets by turning them into interactive stories.
+AppGen takes all datasets from Socrata data portals, searches for linkages among disparate datasets, and merges datasets to identify data quality issues across datasets, resulting in actionable insights for data portal maintainers. But that's not all! AppGen also algorithmically composes standalone mobile apps, turning data into interactive stories that the public can understand.
 
 ## Topics (select the most relevant to your proposal)
 [X] Data Science
