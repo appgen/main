@@ -22,11 +22,19 @@ AppGen takes all datasets from Socrata data portals, searches for linkages among
 
 Abstract *
 
-Through major strides in government transparency, many countries and municipalities have provided a substantial number of public datasets in a machine readable format through the Socrata data portals. This initiative has improved the accessibility and accountability of governments. But we think we can make it even better. We wanted to make a tool to help explore the connections among datasets and to assess the quality of a data portal as a whole.
+Through major strides in government transparency, many countries and municipalities have provided a substantial number of public datasets in a machine readable format through the Socrata data portals. This initiative has improved the accessibility and accountability of governments. But this is just the beginning.
 
-AppGen is a rapid prototyping tool that allows people to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from the socrata, analyzes them to find stochastic linkages, merges disparate datasets, applies visual styles, writes product copy and composes visual brand. 
+Assessing the quality of a single dataset is hard enough, and assessing the quality of a thousand datasets is even harder. AppGen is a data portal exploration tool that facilitates the identification of connections among datasets and the assessment of the quality of a data portal as a whole.
 
-Assessing the quality of a single dataset is hard enough, and assessing the quality of a thousand datasets is even harder. We have developed a tool that will help people understand
+AppGen started a rapid prototyping tool that allows people to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from Socrata data portals, analyzes them to find stochastic linkages, merges disparate datasets, applies visual styles, writes product copy and composes visual brand. 
+
+In the process of building this civic technology rapid-prototyping tool, we discovered that we were in the unique position required to provide essential feedback to data portal maintainers. Data portal maintainers currently have no good way of assessing standards across datasets within a data portal. Without this feedback, open data maintainers, do not have the approrpirate metrics to identify and improve the open data offerings.
+
+With AppGen, they can quickly learn and apply best practices to all current open datasets. Because AppGen targets the superset of NYC's open datasets, we have both the access and perspective to assess the quality of each dataset as it relates to the superset, an provide a quantified score as well as a visualization that linked back directly to the datasets.
+
+%p To begin this endeavor, we have compiled a set of Dataset Best Practices as well as Critical Questions that creators and maintainers of datasets should be asking themselves when the open up a dataset on the NYC Data Portal form which we can determined the metrics by which we will score the datasets:
+
+
 
 
 
