@@ -7,21 +7,14 @@ Submitting a proposal is a two stage process. First, enter the proposal details 
 AppGen: Raising the Discourse about Big Data via Automated Random Prototyping
 
 ## Description * (brief overview for marketing purposes, max. length 400 characters—about 65 words)
-Civic data is great
-however, there is a crisis of quality
-how do we qualify these datasets?
-
-Appgen, uniquely targets the superset of open data. 
-
-AppGen takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, merges disparate datasets, visualizes them in the form of standalone apps, writes product copy and composes a visual brand. This novel approach to rapidly prototyping facilitates the spatial understanding of NYC Open Data as interactive, story-telling apps. 
-
+AppGen takes all the datasets from the Socrata data portal, analyzes them to find stochastic linkages, merges disparate datasets, and visualizes them in the form of standalone mobile apps. This novel approach to rapidly prototyping helps us understand diverse datasets by turning them into interactive stories.
 
 ## Topics (select the most relevant to your proposal)
-[] Data Science
+[X] Data Science
 [x] Law, Ethics, and Open Data
- Hadoop in Practice
- Beyond Hadoop
-[] Design
+[] Hadoop in Practice
+[] Beyond Hadoop
+[X] Design
 [] Connected World
 
 ## Session type
