@@ -22,7 +22,15 @@ AppGen takes all the datasets from the Socrata data portal, analyzes them to fin
 
 Abstract *
 
-AppGen is a rapid prototyping tool that allows one to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, merges disparate datasets, visualizes them in the form of standalone apps, writes product copy and composes a visual brand. 
+Through major strides in government transparency, many countries and municipalities have provided a substantial number of public datasets in a machine readable format through the Socrata data portals. This initiative has improved the accessibility and accountability of governments. But we think we can make it even better. We wanted to make a tool to help explore the connections among datasets and to assess the quality of a data portal as a whole.
+
+AppGen is a rapid prototyping tool that allows people to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from the socrata, analyzes them to find stochastic linkages, merges disparate datasets, applies visual styles, writes product copy and composes visual brand. 
+
+Assessing the quality of a single dataset is hard enough, and assessing the quality of a thousand datasets is even harder. We have developed a tool that will help people understand
+
+
+
+
 
 We think it has value in a Sokal hoax kind of way, as an invective against the redundancy of civic applications and arbitrariness of hackathon judging. But additionally, because it uniquely targets the superset of civic data, it could be used to gather analytics on the join-ability/usability/hack-ability of specific open datasets in relation to each other, and through this quantification, serve as an assessment tool re: the success/failure of any govt/dept's open data efforts.
 
