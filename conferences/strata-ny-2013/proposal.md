@@ -4,24 +4,17 @@
 Submitting a proposal is a two stage process. First, enter the proposal details on this page. After submitting these, you will then be asked to input the speaker details.
 
 ## Proposal title *
-AppGen: Raising the Discourse about Big Data via Automated Random Prototyping
+AppGen: Raising the Discourse about Big Open Data via Algorithmic Prototyping
 
 ## Description * (brief overview for marketing purposes, max. length 400 characters—about 65 words)
-Civic data is great
-however, there is a crisis of quality
-how do we qualify these datasets?
-
-Appgen, uniquely targets the superset of open data. 
-
-AppGen takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, merges disparate datasets, visualizes them in the form of standalone apps, writes product copy and composes a visual brand. This novel approach to rapidly prototyping facilitates the spatial understanding of NYC Open Data as interactive, story-telling apps. 
-
+AppGen is an open-source tool that automatically ingests all datasets from Socrata data portals, searches for linkages among disparate datasets, and merges datasets. Having algorithmically merged the datasets, AppGen identifies data quality issues across datasets, provides actionable insights to data portal maintainers and visualizes associated datasets as standalone mobile apps.
 
 ## Topics (select the most relevant to your proposal)
-[] Data Science
+[X] Data Science
 [x] Law, Ethics, and Open Data
- Hadoop in Practice
- Beyond Hadoop
-[] Design
+[] Hadoop in Practice
+[] Beyond Hadoop
+[X] Design
 [] Connected World
 
 ## Session type
@@ -29,7 +22,21 @@ AppGen takes all the datasets from the NYC Data Portal, analyzes them to find st
 
 Abstract *
 
-AppGen is a rapid prototyping tool that allows one to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from the NYC Data Portal, analyzes them to find stochastic linkages, merges disparate datasets, visualizes them in the form of standalone apps, writes product copy and composes a visual brand. 
+Through major strides in government transparency, many countries and municipalities have provided a substantial number of public datasets in a machine readable format through the Socrata data portals. This initiative has improved the accessibility and accountability of governments. But this is just the beginning.
+
+Assessing the quality of a single dataset is hard enough, and assessing the quality of a thousand datasets is even harder. Data portal maintainers currently have no good way of assessing standards across datasets within a data portal.
+
+AppGen started a rapid prototyping tool that allows people to browse the superset of open civic datasets in the form of standalone, fully functional and branded web applications. It takes all the datasets from Socrata data portals, analyzes them to find stochastic linkages, merges disparate datasets, applies visual styles, writes product copy and composes visual brand. 
+
+In the process of building this civic technology rapid-prototyping tool, we discovered that we were in the unique position required to provide essential feedback to data portal maintainers. We started by compiling a set of dataset best practices for the creation and maintainence of open data portals, and we built auditing tools around these best practices.
+
+The talk will discuss our best practices
+
+
+
+
+
+
 
 We think it has value in a Sokal hoax kind of way, as an invective against the redundancy of civic applications and arbitrariness of hackathon judging. But additionally, because it uniquely targets the superset of civic data, it could be used to gather analytics on the join-ability/usability/hack-ability of specific open datasets in relation to each other, and through this quantification, serve as an assessment tool re: the success/failure of any govt/dept's open data efforts.
 
@@ -108,3 +115,4 @@ Any other information you would like the conference organizers to know?
 
 Code of Conduct
 We expect all participants, including speakers, to support our Code of Conduct, the core of which is this: an O'Reilly conference should be a safe and productive environment for everyone. Read more »
+
