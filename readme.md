@@ -33,6 +33,12 @@ submodule as an input submodule. Each major part can be checked out
 independently of the present repository. The structure of the submodules
 enforces the immutability of data.
 
+Large and dynamic data are stored in S3 rather than in git submodules.
+This includes
+
+* Raw CSV files from Socrata (rows.appgen.me)
+* App parameters (comestibles.appgen.me)
+
 ### Components
 
 #### Pantry
@@ -48,8 +54,27 @@ data.
 The kitchen takes the pantry (with its various data submodules) as input and
 converts them into a form that the generated web applications can use. This
 involves randomization. For example, geoJSON files and app names are produced
-in the kitchen. These data are all stored in one output submodule, called
-"comestibles", in one JSON file per random seed.
+in the kitchen. These data are all stored in comestibles.appgen.me, with two
+files per seed. `:seed.csv` is the combined table, and `:seed.json` is the
+metadata, including all of the view json files for all of the parent datasets.
+
+The `:seed.json` file is a serialized object with following schema. The main
+app parameters are at the root of object.
+
+* `seed` is the identifier. It's actually the hash of the schema, and it's used
+    to seed random text generation in the kitchen.
+* `name` is the app name
+* `collabfinder_{need,what,why}` is the answers to the collabfinder questions.
+* `combined_title` is a long title that was formed by combining the descriptions
+    of the parent datasets.
+* `keywords` is a list of keywords drawn from tags and column names.
+* `logo` is empty for now.
+
+`sources` is all of the metadata objects for all of the parent datasets.
+
+The `:seed.csv` file is the union of all of the datasets with an additional
+`source_dataset` column, which is the Socrata 4x4 identifier for the particular
+dataset that that row came from.
 
 #### Menu
 The menu takes the comestibles as input and displays a webpage wherein people
