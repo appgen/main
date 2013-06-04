@@ -43,7 +43,7 @@ git_url=$(cat "$tmp" | jshon -e git_url -u)
 
 (
   set -e
-  cd heroku-proxy-flask
+  cd proxy
   sed -i "s/##seed##/$app_seed/" app.py
   git commit . -m set\ seed
   git push "$git_url" master --force
